@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(2,1fr)/repeat(5,1fr);
+    grid-template-columns: repeat(auto-fit,60px);
+    grid-template-columns: repeat(auto-fit,minmax(60px,1fr));
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+}
+
+/* Different classes and colors for each box */
+.box1 { background-color: #3498db; }
+.box2 { background-color: #2ecc71; }
+.box3 { background-color: #e74c3c; }
+.box4 { background-color: #9b59b6; }
+.box5 { background-color: #f39c12; }
+.box6 { background-color: #1abc9c; }
+.box7 { background-color: #34495e; }
+.box8 { background-color: #c0392b; }
+.box9 { background-color: #27ae60; }
+.box10 { background-color: #f1c40f; }

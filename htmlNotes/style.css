@@ -1,0 +1,60 @@
+/* case sensitive */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+        /* matters on pre tag */
+}
+  /* background-color: rgba(54, 121, 98,0.5); 
+  text-align: left;
+  font-size: medium;  */
+
+/* This will overwrite aquamarine */
+/*  when this universal css is done : all h1,divs, p are colored green, so if we create a div and a p inside it, and set the div's color red, then nothing will happen, as div has no padding, and all its content is para which is green as universally selected, but if i write anything without any tag, it will be div's content, it will be taking space and red color also */
+/* rgb-255-0-0 hex - ff-0-0 just the hexadecimal values of RGB google color picker color palette, coolors */
+/* in shorthand, setting multiple css properties doesn't follow any order */
+/* 2px solid black == solid 2px black */
+/* font weight range 100-900 */
+/* div  এর হাইট ওইয়েট সেট করা মানে উহার কন্টেন্ট এরিয়ার হাইট ও্যেট সেট করা, তাই এক্সট্রা পেডিং দিলে বাক্স বড় হবে */
+
+#para{
+    background-color: rgb(143, 143, 244);
+    font-family: Arial; /* font family doesnt matter here */
+        /* text-align: left; doesnt matter */
+    
+}
+pre{
+    font-family: Arial;
+        /* matters here but cant change universal font */
+}
+p{
+    font-family: Arial;
+        /* matters here but cant change universal font */
+}
+#blank{
+    background-color: black;
+}
+#Social{
+    background-color: rgb(93, 93, 160);
+    /* background: red; */
+    /* whyyyyyy */
+}
+img{
+    width: 100px;
+}
+
+#b1{
+    font-weight: normal;
+}
+
+hr{
+    background-color: rgb(188, 14, 14);
+    height: 2px;
+    border: none;
+}
+#circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}

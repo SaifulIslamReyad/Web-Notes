@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanaced Tags</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <ul>
+        <li>calculator</li>
+        <li>laptop</li>
+        <li>mobile phone
+            <ul>
+                <li>redmi</li>
+                <li>symphony</li>
+                <li>nokia</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <hr>
+
+    <table>
+        <caption>Student's Info</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Father</th>
+            </tr>
+        </thead>
+
+        <!-- table head Vs table data -->
+
+        <tbody>
+            <tr>
+                <td>Reyad</td>
+                <td>230214</td>
+                <td>MD Kamal Sharif</td>
+            </tr>
+            <tr>
+                <td>Suhad</td>
+                <td>230124</td>
+                <td>MD Jamal Sharif</td>
+            </tr>
+            <tr>
+                <td colspan="2">Jeyad</td>
+                <td rowspan="2">MD Bamal Sharif</td>
+            </tr>
+            <tr>
+                <td>Leyad</td>
+                <td>230344</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- forms -->
+    <form action="action.py">
+        <input type="text" placeholder="Enter Name....">
+        <input type="password" placeholder="Enter password...">
+        <br>
+        Select your class and money:
+        <input type="radio" value="11" name="CLASS"> XI
+        <input type="radio" value="12" name="CLASS"> XII
+        <input type="radio" value="10" name="Money"> 10
+        <input type="radio" value="20" name="Money"> 20
+        <!-- same name er jekono akta te tick deoa jay -->
+        <!-- backend er kache name,value jabe -->
+        <br>
+        Select ur class again:
+        <!-- now doing the same thing using labels -->
+        <label for="101">
+            <input type="radio" value="11" id="101" name="CLASS"> XI
+        </label>
+        <label for="102">
+            <input type="radio" value="12" id="102" name="CLASS"> XII
+        </label>
+        <!-- now clicking on XI also works because of ID -->
+
+        <br>
+        select ur subjects:
+        <!-- selecting multiple subs -->
+        <label for="math">
+            <input type="checkbox" value="math" id="math" name="sub">math
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" id="phy" name="sub">phy
+        </label>
+        <label for="chem">
+            <input type="checkbox" value="chem" id="chem" name="sub">chem
+        </label>
+
+        <br>
+        <br>
+
+        <textarea name="feedback" id="1" placeholder="Please give your valuable feedback here" rows="5"></textarea>
+        <br><br>
+        <select name="city" id="city">
+            <option value="Barishal">Barishal</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Jashore">Jashore</option>
+            <option value="Bhola">Bhola</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+    <br>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=iXtzLKGSdRsFJPVT"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560px" height="315px" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- autoplay  -->
+    <!-- off -->
+    <video height="315" src="video.mp4" controls loop>hello</video>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, consectetur quos placeat, neque deserunt
+        reiciendis doloremque iure unde porro sit molestiae sunt dolorum exercitationem, temporibus ab fuga! Officia,
+        perspiciatis deleniti! Similique nemo exercitationem, provident eligendi consequuntur nisi eius consectetur
+        earum natus quidem ratione itaque, temporibus ullam nam perferendis impedit quaerat repudiandae voluptas
+        laborum? Suscipit ea explicabo hic incidunt omnis dolorem, harum error adipisci dolorum debitis illo, minus
+        rerum. In ullam officia rem harum cupiditate, laborum, reiciendis hic excepturi, sint ratione nemo maiores
+        voluptatibus quibusdam culpa voluptatem cum recusandae blanditiis. Molestiae sunt suscipit error aperiam nobis,
+        eveniet dicta dignissimos culpa tenetur vero porro facilis et fuga voluptatum architecto ipsam fugiat iure velit
+        veniam esse repudiandae quisquam, quidem quod mollitia. Debitis deleniti voluptas, quas provident quia
+        necessitatibus mollitia amet nesciunt voluptatibus molestiae rerum eum quod minus nostrum ducimus maxime! Rem
+        unde provident ut veritatis! Animi dicta ex laboriosam expedita veniam incidunt cupiditate, ipsum, non nam vitae
+        quia similique. Repudiandae aliquid quod inventore possimus atque, facilis veritatis, harum illo, repellat
+        mollitia dolorum. Nesciunt quisquam natus labore libero officiis praesentium iure modi porro consequatur aut
+        esse illum tempora cupiditate dolorum culpa, exercitationem debitis unde ullam consectetur velit impedit!
+        Debitis, fugit! Repellendus veritatis temporibus, necessitatibus explicabo repellat dignissimos mollitia
+        reiciendis unde delectus quasi in, fugiat accusamus error architecto animi dolorem consequuntur, molestias quo?
+        Sint, possimus. Enim quia soluta placeat sapiente eum laborum eveniet, accusantium quaerat rem quasi. Libero
+        nostrum error, delectus quos nobis autem impedit culpa necessitatibus minus dolor sed repudiandae numquam minima
+        reiciendis quas odio aspernatur assumenda obcaecati eum perferendis nam mollitia molestias. Iure deserunt quo,
+        dolores voluptas adipisci dolore, temporibus blanditiis non soluta incidunt eligendi enim odio praesentium eaque
+        pariatur assumenda! Nihil optio, numquam eaque maxime alias officia, illo ipsa dolores perspiciatis quaerat iste
+        dicta dolorem facilis expedita et consequuntur totam pariatur aliquam.</p>
+</body>
+
+</html>

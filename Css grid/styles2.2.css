@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.header{
+    background-color: red;
+}
+.menu{
+    background-color: green;
+}
+.content{
+    background-color: purple;
+}
+.footer{
+    background-color: blue;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+/* we can achive same things by a different approach */
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(3,1fr)/repeat(12,1fr);
+    grid-template-areas: 
+        "h h h h h h h h h h h h"    
+        "m c c c c c c c c c c c"
+        "m c c c c c c c c c c c"
+        "m c c c c c c c c c c c"
+        "f f f f f f f f f f f f"
+    ;
+}
+
+.header{
+    grid-area: h;
+}
+.footer{
+    grid-area: f;
+}
+.content{
+    grid-area: c;
+}
+.menu{
+    grid-area: m;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(3,1fr)/repeat(12,1fr);
+    grid-template-areas: 
+        ". h h h h h h h h h h h"    
+        "m c c c c c c c c c c c"
+        "f f f f f f f f f f f f"
+    ;
+    grid-template-rows: 20px auto 20px;
+}
